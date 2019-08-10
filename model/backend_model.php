@@ -1,5 +1,6 @@
 <?php 
 	include 'config/database.php';
+	
 	/**
 	 * summary
 	 */

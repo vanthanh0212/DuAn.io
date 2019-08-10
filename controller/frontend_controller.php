@@ -32,7 +32,16 @@ class FrontendController {
 	}
 	function handleFront($action,$frontModel,$libs)
 	{
-		
+		switch ($action) {
+			case 'home':
+			include 'view/trangchu/slides.php';
+				// code...
+				break;
+			
+			default:
+				// code...
+				break;
+		}
 	}
 	function handleNews($action,$frontModel,$libs)
 	{
